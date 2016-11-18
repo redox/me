@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wojciech Adam Koszek</title>
+  <subtitle>Software. Business. Design.</subtitle>
+  <id>http://www.koszek.com/blog</id>
+  <link href="http://www.koszek.com/blog"/>
+  <link href="http://www.koszek.com/feed.xml" rel="self"/>
+  <updated>2016-11-02T00:00:00+00:00</updated>
+  <author>
+    <name>Wojciech Adam Koszek</name>
+  </author>
+  <entry>
+    <title>Failure of my one post per week goal</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/11/02/failure-of-my-one-post-per-week-goal/"/>
+    <id>http://www.koszek.com/blog/2016/11/02/failure-of-my-one-post-per-week-goal/</id>
+    <published>2016-11-02T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;I started to appreciate bloggers and YouTubers this year. We’ve got many,
+many people pushing great content into the Internet for free, and let me
+tell you: I’m not one of them.&lt;/p&gt;
+
+&lt;p&gt;After understanding that writing on a regular basis is important, I’ve tried
+to do one blog a week.&lt;/p&gt;
+
+&lt;p&gt;One blog a week. Really. This isn’t that much if you think about it. I
+believed that it’d be around 30 minutes of writing and maybe several more on
+proofreading and publishing, but it’s official – I’ve failed.&lt;/p&gt;
+
+&lt;p&gt;Failure reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;it’s hard to find a proofreaders for technical content, unless you ask
+friends, who never have time, or always find your stuff “very interesting”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;publishing takes more than 30 minute&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;you run out of topics&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;you get pushed in real-life and work, and have little energy left at the
+end of a day&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;you’d rather write software than blog posts&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“other people will do it for me”&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Any of these reasons is valid and holds true and I fell into the trap. So as
+of today, my statistics look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+	$ la 2016-0* | grep -v book | wc -l
+	       8
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to read this:&lt;/strong&gt; this year not counting books I’ve written 8 blog
+posts. It should have been something close to 50. This needs changing, and
+I think one of the things I’m going to be exploring is just plain old stupid
+Wordpress.&lt;/p&gt;
+
+&lt;p&gt;Reason?&lt;/p&gt;
+
+&lt;p&gt;Simply read this (I fully agree): &lt;a href="http://blog.pankajmore.in/static-site-generators-focus-on-the-wrong-thing"&gt;Static generators focus on the wrong
+thing&lt;/a&gt;.
+If you didn’t know, the way I write this blog post is by opening a simple
+notepad, writing text, and then using this thing called
+&lt;a href="https://middlemanapp.com/"&gt;Middleman&lt;/a&gt;. And this file later turns into the
+website. This works well until you have 200 pages (which I do – check my
+&lt;a href="http://www.koszek.com/reading"&gt;reading section&lt;/a&gt;). Then it takes a long time..&lt;/p&gt;
+
+&lt;p&gt;Other than that I need to tie myself with a schedule for writing. As of now
+I’m ignoring my Wednesday reminder “To write!” and my Saturday’s reminder to
+“proofread”, but I think this needs to change too.&lt;/p&gt;
+
+&lt;p&gt;The biggest reason is basically: if time for writing comes, I would much
+rather write software than text, most often. Also topics which I pick
+sometimes appear relevant to whatever I’m doing at that very moment. So
+sometimes it’s iOS related, sometimes it’s Mac or UNIX, and sometimes about
+business. Unclear if people would actually enjoy reading un-specific stuff
+like this.&lt;/p&gt;
+
+&lt;p&gt;Things I’ll be exploring:&lt;/p&gt;
+
+&lt;p&gt;Writing as I go. Work on
+&lt;a href="http://www.sensorama.org"&gt;Sensorama&lt;/a&gt; led to a lot of studying and
+discovering, and I feel like I’ll have to review the
+&lt;a href="https://www.github.com/wkoszek/sensorama-ios"&gt;GitHub repo&lt;/a&gt; to come back to
+some of the ideas and conclussions I’ve reached during writing of it.&lt;/p&gt;
+
+&lt;p&gt;It’s just November, but these are my reflections.&lt;/p&gt;
+
+&lt;p&gt;What is your system for pushing content regularly?&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Good to Great</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/07/27/book-good-to-great/"/>
+    <id>http://www.koszek.com/blog/2016/07/27/book-good-to-great/</id>
+    <published>2016-07-27T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">
+</content>
+  </entry>
+  <entry>
+    <title>Dealing with large jobs on Travis-CI</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/07/25/dealing-with-large-jobs-on-travis/"/>
+    <id>http://www.koszek.com/blog/2016/07/25/dealing-with-large-jobs-on-travis/</id>
+    <published>2016-07-25T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;I’m releasing &lt;a href="https://github.com/wkoszek/"&gt;all my projects&lt;/a&gt;
+&lt;a href="http://www.koszek.com/blog/2016/07/11/what-i-learned-from-connecting-60-projects-to-ci-system/"&gt;through continuous integration&lt;/a&gt;,
+so I end up working with &lt;a href="http://www.travis-ci.org"&gt;Travis-CI&lt;/a&gt; a lot.
+Travis provides a corresponding diagnostic page for each project I have
+linked to it from GitHub.
+For example one of my GitHub projects &lt;a href="https://github.com/wkoszek/cpu60"&gt;is here&lt;/a&gt; and 
+its Travis-CI subpage &lt;a href="https://travis-ci.org/wkoszek/kmnsim"&gt;would be here&lt;/a&gt;.
+If you look at the link format, you’ll understand what I mean.
+In there you can see what the output of your job was.
+Most of the jobs are fairly simple and finish within short period of time.
+For these jobs debugging the build steps is easy: just look at the console
+output and see what’s wrong. It’s what I do 95% of time. Below I give hints
+on how to handle 5% of other cases.&lt;/p&gt;
+
+&lt;h1 id="bigger-projects"&gt;Bigger projects&lt;/h1&gt;
+
+&lt;p&gt;While working on &lt;a href="http://www.sensorama.org"&gt;Sensorama for iOS&lt;/a&gt; I had
+to do something different, since it generates a lot of output from
+many tools.
+It has many dependencies on &lt;a href="https://rubygems.org"&gt;Ruby Gems&lt;/a&gt; and
+&lt;a href="https://cocoapods.org/"&gt;CocoaPods&lt;/a&gt;, which make it long-running as well.
+Unless you’re careful, you’ll make your life and Travis job debugging
+harder. For me debugging OSX/iOS projects is especially challenging, since it’s a
+flow of: bug, commit, verify cycles (for Linux/UNIX projects you can run
+Travis-CI environment in a Docker container).&lt;/p&gt;
+
+&lt;h1 id="travis-ci-limits-for-open-source-projects"&gt;Travis-CI limits for Open Source projects&lt;/h1&gt;
+
+&lt;p&gt;Travis-CI is entirely free for Open Source, which I find great.
+Even though its run-time limits are pretty generous, they do exist:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;time limit on jobs: which currently is set to 30 minutes.&lt;/li&gt;
+  &lt;li&gt;10 minute watchdog: if your job doesn’t output anything in this period, it will be killed.&lt;/li&gt;
+  &lt;li&gt;size of the output files is limited to 4MB. If you run over it, your job will be killed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How does the issue look like?&lt;/p&gt;
+
+&lt;p&gt;Example (&lt;a href="https://travis-ci.org/wkoszek/sensorama-ios/builds/145737758"&gt;from here&lt;/a&gt;):&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;+scan --workspace Sensorama.xcworkspace --scheme SensoramaTests
+[08:12:08]: xcrun xcodebuild -list -workspace Sensorama.xcworkspace
+No output has been received in the last 10m0s, this potentially indicates a
+stalled build or something wrong with the build itself.
+The build has been terminated
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Another one (&lt;a href="https://travis-ci.org/wkoszek/sensorama-ios/builds/146298516"&gt;from here&lt;/a&gt;):&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk -fasm-bloc
+The log length has exceeded the limit of 4 MB (this usually means that the test suite is raising the same exception over and over).
+The job has been terminated
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;How to deal with this stuff?&lt;/p&gt;
+
+&lt;h1 id="prettifiers"&gt;Prettifiers?&lt;/h1&gt;
+
+&lt;p&gt;For XCode projects just pipe everything what comes from &lt;code&gt;xcodebuild&lt;/code&gt; through
+&lt;code&gt;xcpretty&lt;/code&gt;. If you’re using &lt;a href="https://github.com/fastlane/fastlane"&gt;fastlane&lt;/a&gt;
+(and if not, you should), then the &lt;code&gt;xcpretty&lt;/code&gt; is used automatically.
+Normally I don’t like the tools which obfuscate real command’s output, but
+in this case I had no choice. Also &lt;code&gt;xcpretty&lt;/code&gt; makes the output
+understandable.&lt;/p&gt;
+
+&lt;h1 id="output-folding"&gt;Output folding&lt;/h1&gt;
+
+&lt;p&gt;Travis-CI has this cool undocumented feature called “output folding”. You
+can group lines of output which belong to the same group of commands. You’ll
+get them folded together and you don’t have to scroll through all the
+output thanks to it.&lt;/p&gt;
+
+&lt;p&gt;How to do it?&lt;/p&gt;
+
+&lt;p&gt;First of all, your config file &lt;code&gt;.travis.yml&lt;/code&gt; for the &lt;code&gt;script&lt;/code&gt; entry has to
+call 1 script. So for Sensorama I have:&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;language: objective-c
+osx_image: xcode7.3
+cache: cocoapods
+rvm:
+- 2.2
+podfile: Sensorama/Podfile
+script:
+- ./scripts/travis_script.sh
+#- ./scripts/script_with_folds
+addons:
+  ssh_known_hosts:
+  - gitlab.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to give it a try, use &lt;code&gt;script_with_folds&lt;/code&gt;, borrowed from here.&lt;/p&gt;
+
+&lt;p&gt;Then it’s pretty easy:&lt;/p&gt;
+
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+
+travis_fold&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+  &lt;span class="nb"&gt;local &lt;/span&gt;&lt;span class="nv"&gt;action&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$1&lt;/span&gt;
+  &lt;span class="nb"&gt;local &lt;/span&gt;&lt;span class="nv"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$2&lt;/span&gt;
+  &lt;span class="nb"&gt;echo&lt;/span&gt; -en &lt;span class="s2"&gt;"travis_fold:&lt;/span&gt;&lt;span class="k"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;action&lt;/span&gt;&lt;span class="k"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;:&lt;/span&gt;&lt;span class="k"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;name&lt;/span&gt;&lt;span class="k"&gt;}&lt;/span&gt;&lt;span class="se"&gt;\r&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+travis_fold start foo
+
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"This line appears in the fold's 'header'"&lt;/span&gt;
+
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"Stuff inside"&lt;/span&gt;
+
+sleep 2
+
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;"More stuff"&lt;/span&gt;
+
+travis_fold end foo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So every fold has to start with &lt;code&gt;travis_fold:ACTION:name&lt;/code&gt;, where &lt;code&gt;ACTION&lt;/code&gt; is
+either &lt;code&gt;start&lt;/code&gt; or &lt;code&gt;end&lt;/code&gt;, and the &lt;code&gt;name&lt;/code&gt; is whatever you want.&lt;/p&gt;
+
+&lt;h1 id="doing-folds-easily"&gt;Doing folds easily&lt;/h1&gt;
+
+&lt;p&gt;For Sensorama I plan to use output folding a lot, so I’ve devised a simpler
+way to deal with this stuff:&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;TMP=/tmp/.travis_fold_name
+
+# This is meant to be run from top-level dir. of sensorama-ios
+
+travis_fold() {
+  local action=$1
+  local name=$2
+  echo -en "travis_fold:${action}:${name}\r"
+}
+
+travis_fold_start() {
+  travis_fold start $1
+  echo $1
+  /bin/echo -n $1 &amp;gt; $TMP
+}
+
+travis_fold_end() {
+  travis_fold end `cat ${TMP}`
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a more elaborate version of what I showed before, but it lets you to
+do:&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;(
+  travis_fold_start BOOSTRAPPING
+  ./build.sh bootstrap
+  travis_fold_end
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Without worrying whether the start and end tags for the fold are matched.
+One of the stupid mistakes I’ve made in one of the commits is that &lt;code&gt;action&lt;/code&gt;
+and &lt;code&gt;name&lt;/code&gt; mismatched, and then folding is broken.&lt;/p&gt;
+
+&lt;h1 id="summary"&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;For optimizing output logging I’d start from trying to limit job output.
+In cases where you can’t do it, try to use some output “compressors” and
+prettyfiers. Remember that these things add complexity and can sometimes
+make debugging harder, as they essentially obfuscate the output of original
+commands. At the end use output folding on Travis-CI.&lt;/p&gt;
+
+&lt;p&gt;Was this article useful? &lt;a href="http://www.twitter.com/wkoszek"&gt;Let me know&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Soft Skills: The software developer's life manual</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/07/18/book-soft-skills/"/>
+    <id>http://www.koszek.com/blog/2016/07/18/book-soft-skills/</id>
+    <published>2016-07-18T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">
+</content>
+  </entry>
+  <entry>
+    <title>What I learned from connecting 60 projects to CI system</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/07/11/what-i-learned-from-connecting-60-projects-to-ci-system/"/>
+    <id>http://www.koszek.com/blog/2016/07/11/what-i-learned-from-connecting-60-projects-to-ci-system/</id>
+    <published>2016-07-11T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;Several months ago I started to wonder what makes me check out software
+sitting at &lt;a href="http://www.GitHub.com"&gt;GitHub&lt;/a&gt; and try it out.
+Some projects I was more willing to work with, and some I
+simply skipped without thinking about it much.
+It seemed like a habit which I’ve developed over the years.
+But why do I have this feeling of carelessly ignoring some projects over another?&lt;/p&gt;
+
+&lt;p&gt;The characteristics of projects I’m drawn into are pretty simple: good,
+clear documentation, good top-level directory structure, presence of some
+“dotfiles” and … green badge, signalizing &lt;a href="https://en.wikipedia.org/wiki/Continuous_integration"&gt;Continuous Integration
+(CI)&lt;/a&gt;
+system is actually verifying this software is at least building fine.&lt;/p&gt;
+
+&lt;p&gt;Once I’ve reached this conclusion, I set myself on a path for bringing all
+my essential repositories to the Continuous Integration (CI) system. First,
+to help people with my software, and second, to learn more about CI systems.&lt;/p&gt;
+
+&lt;p&gt;I had many repositories, big and small, old and new, some of which weren’t
+in the best state. Below you have my thoughts and conclusions from the
+project.&lt;/p&gt;
+
+&lt;h2 id="continuous-integration-101"&gt;Continuous Integration 101&lt;/h2&gt;
+
+&lt;p&gt;Quick introduction: CI system is a remote computer wired to your repository.
+When the repository changes, it’ll pick a change and execute the steps which
+user normally would have taken to build your software. By being a ‘virtual
+user’ the CI system finds issues with reproducibility which customers of
+your software would normally find. And it relieves you from “boring but
+necessary” kind of work. By establishing a process and culture around CI
+system, you’re more likely to deliver software with a decent quality.&lt;/p&gt;
+
+&lt;h2 id="projects-target"&gt;Project’s target&lt;/h2&gt;
+
+&lt;p&gt;So the idea I had was to basically let people know what &lt;a href="https://github.com/wkoszek/"&gt;my
+repos&lt;/a&gt; are all about by bringing documentation.
+And then showing that code isn’t total crap by building it in a reproducible
+way.&lt;/p&gt;
+
+&lt;p&gt;So my algorithm for fixing my code was this:&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;for each repo:
+	regardless of what (no exceptions)
+		put README.md in place
+	if it's super trivial and I don't care:
+		skip
+	contigure CI system and see a green badge
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="continuous-integration-solutions"&gt;Continuous Integration solutions?&lt;/h2&gt;
+
+&lt;p&gt;I’ve worked with 3 CI systems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://circleci.com/"&gt;Circle CI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First of all, it’s pretty eye-opening that people in these companies
+contribute their compute time to the open-source community. I’m not
+affiliated with any of these companies, yet I send them big kudos for doing
+so. So far on delivering my open source projects I have paid literally $0
+(zero dollars) for their services. It is great companies contribute that way
+to the open-source and I hope that through this article we will have more
+developers using their products and improving quality of software.&lt;/p&gt;
+
+&lt;h3 id="how-they-differ"&gt;How they differ?&lt;/h3&gt;
+
+&lt;p&gt;Travis-Ci and Circle-Ci are direct competitors and their offering is
+similar. I have found Travis slightly easier to configure and its UI
+nicer. Circle-Ci feels slightly faster however. This is not 1-to-1
+comparison, and I feel like the best way is to try yourself.
+Travis has a big advantage that was important to me: they offer free OSX
+support. Since I &lt;a href="https://github.com/wkoszek/cs193p"&gt;had&lt;/a&gt;
+&lt;a href="https://github.com/wkoszek/macb"&gt;some&lt;/a&gt; projects for OSX, it was important
+to me. CircleCi and AppVeyor have this nice feature of letting you to login
+on the worker machine for debugging, something I wish Travis had. This is
+very important for debugging (read on).&lt;/p&gt;
+
+&lt;p&gt;AppVeyor however is pretty simple to choose: it’s a dominant Windows-based
+CI system. Because &lt;a href="https://github.com/wkoszek/flviz"&gt;FLViz&lt;/a&gt; and
+&lt;a href="https://github.com/wkoszek/kmnsim"&gt;KMNSIM&lt;/a&gt; both worked on Windows, I wanted
+to see them building fine too.&lt;/p&gt;
+
+&lt;h2 id="lessons-learned"&gt;Lessons learned&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Being a code piper isn’t always fun&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Debugging CI system can be boring and tedious. Reward is there of course,
+but you’ll have to arm yourself in patience and prepare for debugging remote
+system which you have no direct access to.&lt;/p&gt;
+
+&lt;p&gt;Most of failures will be of sort: “Works for me, but doesn’t work on remote
+system”, which is precisely a point of having CI system.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whatever problem you rule out at this stage, your customers won’t hit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Debugging through a key-hole&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Remote systems behave differently and can be configured in unfamiliar way.
+I tried to ease this issue by showing some CI settings through
+&lt;a href="https://github.com/wkoszek/ci-env"&gt;CI-env&lt;/a&gt;. By clicking individual badges
+of each system you can see its remote settings, which you can encompass in
+your scripts later.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trial and error&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Travis-CI offers a &lt;a href="https://docs.travis-ci.com/user/common-build-problems/"&gt;Docker Image&lt;/a&gt;
+for debugging. You may find it helpful for debugging your flow.
+For me it’s often a cycle of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;push a commit&lt;/li&gt;
+  &lt;li&gt;see CI system failing&lt;/li&gt;
+  &lt;li&gt;change something and push a fix&lt;/li&gt;
+  &lt;li&gt;see CI system failing&lt;/li&gt;
+  &lt;li&gt;etc..&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Great flexibility&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For sure I’ve done with CI systems more than I’d have normally do. For
+example
+&lt;a href="https://github.com/wkoszek/book-programming-ruby/blob/master/.travis.yml"&gt;testing my Ruby versions&lt;/a&gt;
+for your scripts is easy. So is
+&lt;a href="https://github.com/wkoszek/mini_printf/blob/master/.travis.yml"&gt;building on 2 operating systems&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Things I don’t want to heat my Mac with, such as &lt;a href="https://travis-ci.org/wkoszek/dockerfiles"&gt;building Docker
+images&lt;/a&gt; I also do through CI
+system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keeping things simple&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;What I see in some projects I &lt;a href="https://github.com/wkoszek/middleman-blog-similar/blob/master/.travis.yml"&gt;contributed
+to&lt;/a&gt;
+is that we put a lot of stuff in CI configuration. I think it’s a mistake
+because users can’t actually execute the CI steps from the same
+configuration file. So I suggest you wrap most of &lt;a href="https://github.com/wkoszek/dockerfiles/blob/master/build.sh"&gt;your steps in a
+script&lt;/a&gt; or
+&lt;a href="https://github.com/wkoszek/me/blob/master/makefile"&gt;a makefile&lt;/a&gt; and then
+run it from a
+&lt;a href="https://github.com/wkoszek/me/blob/master/.travis.yml"&gt;simple&lt;/a&gt;
+&lt;a href="https://github.com/wkoszek/dockerfiles/blob/master/.travis.yml"&gt;config&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;It will take time to push the quality of your code higher, but the benefits
+are great. Right now each time I make a change to my projects, I can see
+immediate checks on whether I broke something or not, which is very nice. I
+urge you to pick 2-3 of your active projects and do the same.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Let me know if this article was helpful and whether you’d find a
+screencast documenting topics in this article useful&lt;/strong&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>What Docker really is</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/06/27/what-docker-really-is/"/>
+    <id>http://www.koszek.com/blog/2016/06/27/what-docker-really-is/</id>
+    <published>2016-06-27T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;It felt strange when Docker first came out, since I couldn’t really
+understand what it is. It is an interesting feeling when people market and
+brand a new technology in a way which makes it obscure and hard to
+understand. So below you have my explanation of Docker, the way I would like
+to see it couple of months ago.&lt;/p&gt;
+
+&lt;h2 id="docker-in-one-paragraph"&gt;Docker in one paragraph&lt;/h2&gt;
+
+&lt;p&gt;Docker is a manager for isolated buckets of software called containers. I
+gives you a way to say: “My software is based on Ubuntu; it must have these
+4 packages installed, and these 5 commands must be executed to make it run
+continually”. These steps will be done at “build” time, during which your
+~1GB image will be created. From this image containers with your software
+can be started on many OSes.&lt;/p&gt;
+
+&lt;h2 id="more-details"&gt;More details.&lt;/h2&gt;
+
+&lt;p&gt;Build is basically a nice term for downloading all the junk like binaries,
+software libraries and data-files, stitching them all together through the
+command line tools and making sure that whatever is in this “bundle” is
+exactly what you requested and what you need. This image is specified in
+&lt;code&gt;Dockerfile&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The image is a filesystem snapshot and has a name. For example,
+&lt;code&gt;wkoszek/base&lt;/code&gt; is a name of the image where I keep basic software for simple
+projects. Or &lt;code&gt;ruby:2.2.4&lt;/code&gt; is an image with Ruby &lt;code&gt;2.2.4&lt;/code&gt;. You can then take
+this build image and export it to the server. Later, other people can
+download it too, and start their containers with your software. Container is
+the instance of the image. Basically you can make many active running
+containers out of the image if you want. To compare it: think of the program
+on a disk, and a process running in the memory. And some programs you can
+start a many copies of . Docker image is similar.&lt;/p&gt;
+
+&lt;h2 id="virtualized-or-not"&gt;Virtualized or not?&lt;/h2&gt;
+
+&lt;p&gt;Now Docker is branded as a virtualization platform. This is partially true.
+It’s more of a separation manager. When you run on Linux and you want to
+start a container, Docker tools will talk to the kernel and tell it to
+create a separate “jail” for new programs about to be started. You can make
+this jail have limited CPU time, limited memory or just simply have no
+limits. Afterwards you can start a program in a jail and this will make this
+program be isolated. If someone were to take over the program from the jail,
+they’d be able to destroy only things within a jail, but not the main
+system.&lt;/p&gt;
+
+&lt;p&gt;So Docker runs on Linux and is basically based on Linux features.&lt;/p&gt;
+
+&lt;p&gt;What happens when you run Windows or Mac? This is where it gets tricky.
+Docker was branded as multi-platform solution, able to run the same
+software, anywhere, with no changes.&lt;/p&gt;
+
+&lt;p&gt;How to make your Linux-based image run on Mac?&lt;/p&gt;
+
+&lt;p&gt;That’s simple. You run Linux VM on Mac, and within this VM you run Docker.
+Docker tools which run on OSX are smart enough to talk to this VM first. And
+in the VM everything is as explained above. It’s pretty … primitive when
+you think about it, but it works.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Once again&lt;/strong&gt;: Docker is only multi-platform when running Linux on your
+native platform is viable. In fact the old Docker on OSX required running
+VirtualBox in the background. New Docker Beta runs Linux in a Apple-branded
+virtualization framework, and Docker inside of it. I haven’t looked at how
+Microsoft Windows is handled, but I know they have their virtualization
+features too, so I suspect it’s equivalent.&lt;/p&gt;
+
+&lt;p&gt;Let me add to that: whatever you’re running inside of Docker are real Linux
+programs compiled for your computer architecture. If you have 32-bit ARM CPU
+like Raspberry PI, and you want to grab a ready-to-use image, you must
+select the right image type. Otherwise you’ll attempt to fetch x64 image and
+it won’t work.&lt;/p&gt;
+
+&lt;h2 id="how-to-start-many-containers"&gt;How to start many containers?&lt;/h2&gt;
+
+&lt;p&gt;The idea of containers shows its real benefits if you deploy a system with
+many elements. For example you can think of a modern website as a software
+with a powerful database (SQL), fast memory storage (Redis/Memcached),
+engine (Rails/NodeJS), HTTP server etc. And it’s beneficial to have it all
+loosely coupled and separated, so that you can test/mock individual elements
+without impacting others. Containers help with that, because they keep all
+these packages in isolated jails, and let them communicate only when you let
+them.&lt;/p&gt;
+
+&lt;p&gt;So in the above example one could put SQL database in one container and all
+memory storage, HTTP storage and Web engine in their own separate
+containers. And you could say: I’m OK with SQL database talking to a Web
+engine, but not to the memory storage. And to do this, you may use Docker
+Compose.&lt;/p&gt;
+
+&lt;p&gt;Docker Compose explains the whole system in a file called
+&lt;code&gt;docker-compose.yml&lt;/code&gt;. This is where you can say that Web engine needs a
+memory storage and a database, and Compose will start things for you in a
+correct order.&lt;/p&gt;
+
+&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;That’s pretty much it. Intentionally I kept you away from technical details,
+since Docker documentation does a good job at it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Let me know if you’ve found this article useful and whether screencast
+demonstrating this topic step-by-step could be beneficial&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Procrastination: Why You Do It, What to Do About It Now</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/06/15/book-procrastination/"/>
+    <id>http://www.koszek.com/blog/2016/06/15/book-procrastination/</id>
+    <published>2016-06-15T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">
+</content>
+  </entry>
+  <entry>
+    <title>747</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/06/04/book-747/"/>
+    <id>http://www.koszek.com/blog/2016/06/04/book-747/</id>
+    <published>2016-06-04T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;An amazing insight into the building of the  biggest passenger
+plane of that time. This book does a good job at explaining what
+building complex engineering projects are all about. One of the
+phrases that stuck with me was that the plane is designed so
+that all the parts can be serviceable and testable, and whole
+which are too deeply buried inside of the structure of the
+plane must last 20 years.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Launch It</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/05/18/book-launch-id/"/>
+    <id>http://www.koszek.com/blog/2016/05/18/book-launch-id/</id>
+    <published>2016-05-18T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">
+</content>
+  </entry>
+  <entry>
+    <title>Use as few tools as possible</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/05/16/use-as-few-tools-as-possible/"/>
+    <id>http://www.koszek.com/blog/2016/05/16/use-as-few-tools-as-possible/</id>
+    <published>2016-05-16T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;Choosing a technology stack is an essential part of building and
+engineering your software product. This is the matter you’ll be stuck in
+forever. Unless you build a 2-line program it’s important to make good
+decisions at this stage.&lt;/p&gt;
+
+&lt;p&gt;I see a lot of “technical fashion” in the computer world. People come up
+with new and different solutions to the same problems, depending on
+things like programming language or a method itself. And then they start
+encompassing their new creations into new products. Thus we see new wave
+of computer languages, tools and transpilers which essentially do the
+same, but in a different way.&lt;/p&gt;
+
+&lt;p&gt;I think these developments are good, since they show creativity and
+curiosity. It can be tempting to start using them in your software
+immediately. One of the guidelines might be: if the tool is there and is
+easy to install, just do it. But here’s my advice.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don’t.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Use as little tools as possible; as long as you can. Counterintuitive?
+Not quite.&lt;/p&gt;
+
+&lt;p&gt;First of all, from my experience, adding anything to your toolset costs
+you something. Most often time. It’s because things are easy to install
+when you work on your powerful laptop, when everything is setup and
+works. When you try to replicate the flow on your CI system later, it
+starts to lead to problems. Setup is harder and if you use something
+like Travis CI, it takes long time to debug and run.&lt;/p&gt;
+
+&lt;p&gt;Second is that the more tools you add, the less likely you’ll find other
+people comfortable with the same tools. Basically remember that you may
+end up doing most of the work, if the technology you picked is unknown
+in your team, or if people aren’t willing to touch it.&lt;/p&gt;
+
+&lt;p&gt;The more you work with something, the more familiar you become. My
+example: if I started using CMake, Rake, Ant and other build tools
+together for each of the projects I’ve done, I’d never really learn make
+well. So I use “make” whenever I can, since it works on all operating
+systems. FreeBSD/OSX and Windows all have it, which is nice, since I
+don’t need to fiddle with their package managers to get basic
+functionality (even if on Windows is nmake I don’t care – the syntax of
+the file is the same.) This is this type of decision you need to make
+and just stick to it for some time. And yes, you’ll have people tell you
+make doesn’t work for many scenarios, but you may never hit these
+problems, since your projects will be 100 files at most, and make
+handles that well.&lt;/p&gt;
+
+&lt;p&gt;(And yes, I know that if you build a modern project it’s possible you’ll
+end up with all these tools at once, but for your smaller projects, just
+stick to one tool)&lt;/p&gt;
+
+&lt;p&gt;Similar decisions I made:&lt;/p&gt;
+
+&lt;p&gt;I’m not using Rake for Ruby projects, since most often I need to execute
+some shell commands, and Rake is not shell. So most often I ended up
+debugging both Ruby and shell that way. Nowadays I just use &lt;code&gt;make&lt;/code&gt;.
+Once I figure working shell command, I literally paste it to &lt;code&gt;make&lt;/code&gt; it
+work. I also get free parallel execution with &lt;code&gt;make -j&lt;/code&gt;, while in Rake
+I’d have to write it myself.&lt;/p&gt;
+
+&lt;p&gt;Another example are transpilers. I try to write plain HTML if I have to
+do a website, since most of snippets for e.g.: Twitter Bootstrap use it.
+If I used HAML it would be 10% better, but I’d spend 30% more time
+retyping these snippets by hand, which defeats the purpose. If you
+shuffle website code everyday, HAML may make sense, but for most of us
+is unnecessary.&lt;/p&gt;
+
+&lt;p&gt;Software is a moldable, and there are no hard guidelines, but here’s my
+take on it:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;only wire new tool to your toolbox when the existing tool doesn’t work. For example, if you start a team project and most of the people use Python but will have to write some front-end software, picking Coffeescript makes sense&lt;/li&gt;
+  &lt;li&gt;if you’re in the team, unless the tool is 50%-100% better, use whatever other people would be willing to use&lt;/li&gt;
+  &lt;li&gt;if you want to use new fancy tool anyway, do it for a new project, starting from scratch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Would be interested to hear your opinion on this.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>How to ask questions on Stack Overflow?</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/04/18/how-to-ask-questions-on-stack-overflow/"/>
+    <id>http://www.koszek.com/blog/2016/04/18/how-to-ask-questions-on-stack-overflow/</id>
+    <published>2016-04-18T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;This year I want to contribute to Stack Overflow. I’ve been using this
+site for years, but have never answered any questions, rated answers or
+posted replies. I want to change this.&lt;/p&gt;
+
+&lt;p&gt;I went ahead and made myself several tags with topics I’m good at. And
+as a break from work, I try to answer questions. There is a lot of good
+questions, but most of them are bad. People make it hard to help
+themselves. They either give a lot of data, but don’t formulate the
+problem, or state the problem, but give no information about their
+setup, environment and conditions. Stack Overflow is no different than
+any other technical forum. Mailing lists and GitHub Issues are another
+examples. But you must communicate clearly to really benefit from them.&lt;/p&gt;
+
+&lt;p&gt;If you want to communicate effectively on these websites, you must
+follow a pattern:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What do you want to do?&lt;/li&gt;
+  &lt;li&gt;What the problem?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s as simple as that. But remember that technical problems are rather
+complex. Very often the issues arise, since the documentation and
+available resources didn’t encompass your computer, your environment or
+your use case. Additionally: on the other side of the screen the person
+reading may interpret the words differently. That’s why it’s very
+essential to follow a guideline while posting an issue description or a
+question.&lt;/p&gt;
+
+&lt;p&gt;Don’t get discouraged. I grew up with the Internet and software people.
+My experience is that it’ll mostly be fine and you’ll get help. However
+some people are harsh and you’ll have to deal with it. Below is a simple
+guideline which may help.&lt;/p&gt;
+
+&lt;h1 id="guideline-for-asking-questions-on-stack-overflow"&gt;Guideline for asking questions on Stack Overflow&lt;/h1&gt;
+
+&lt;p&gt;Each section is a question which you must know an answer to before
+posting your problem description. Include this data in your post. I give
+sample good answers for clarity.&lt;/p&gt;
+
+&lt;h3 id="what-do-you-want-to-do"&gt;What do you want to do?&lt;/h3&gt;
+
+&lt;p&gt;I want to count lines in a file.&lt;/p&gt;
+
+&lt;h3 id="whats-your-method"&gt;What’s your method?&lt;/h3&gt;
+
+&lt;p&gt;I’m trying to use wc command, but it’s not working.&lt;/p&gt;
+
+&lt;h3 id="how-are-you-using-it"&gt;How are you using it?&lt;/h3&gt;
+
+&lt;p&gt;I’m passing some data to it, but it’s printing some 3 numbers, not line
+count. Example: &lt;code&gt;wc sample.txt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id="whats-your-test-data"&gt;What’s your test data?&lt;/h3&gt;
+
+&lt;p&gt;I put sample data to a file sample.txt, and it looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+line 1
+line 2
+line 3
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id="what-you-get"&gt;What you get?&lt;/h3&gt;
+
+&lt;p&gt;So when I pass this &lt;code&gt;sample.txt&lt;/code&gt;, I get:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+       4 6 22 sample.txt
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id="what-do-you-expect"&gt;What do you expect?&lt;/h3&gt;
+
+&lt;p&gt;I’d expect to get 3.&lt;/p&gt;
+
+&lt;h3 id="whats-your-computeroperating-system"&gt;What’s your computer/operating system?&lt;/h3&gt;
+
+&lt;p&gt;I use Mac with Yosemite.&lt;/p&gt;
+
+&lt;h3 id="whats-your-environment"&gt;What’s your environment?&lt;/h3&gt;
+
+&lt;p&gt;I use bash.&lt;/p&gt;
+
+&lt;h1 id="summary"&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;When you have problems stated like the example above, it’s much easier
+to figure out what the person wants, and she/he gets and how to help
+them. Solution would be to pass &lt;code&gt;-l&lt;/code&gt; as a flag.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/img/2016-04-18-how-to-ask-questions-on-stack-overflow/image01.jpg" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Don't document. Automate!</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/04/11/dont-document-automate/"/>
+    <id>http://www.koszek.com/blog/2016/04/11/dont-document-automate/</id>
+    <published>2016-04-11T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;When I go to an article or a GitHub page it sometimes amazes me how good
+stuff people produce. I’m building an sensor platform recently, and a lot of
+problems I solve by using software other people wrote and made it free. This
+is great. But there’s one pattern which I need to criticize: people write
+way to much.&lt;/p&gt;
+
+&lt;p&gt;What do I mean by that?&lt;/p&gt;
+
+&lt;p&gt;The normal flow of getting software to work is typing a series of steps. For
+example it may require typing 10 commands in the shell. And these command
+for 90% of people will likely be the same. For the rest 10% they’ll be
+slightly customized, but not much. Nothing that couldn’t be achieved with
+10-line shell script consuming 1-2 parameters.&lt;/p&gt;
+
+&lt;p&gt;But people don’t do that. They prefer to write elaborate documentation
+instead. And then I need to go and re-type everything with some silly
+changes. I still feel grateful for seeing the correct steps, but this makes
+little sense, wastes my time and I don’t like it.&lt;/p&gt;
+
+&lt;p&gt;Here’s a bad example on my part: my &lt;a href="https://github.com/wkoszek/synology"&gt;Synology HOWTO&lt;/a&gt; You can see what I
+mean: the tools I’ve made are useful, and yes, you’ll end up with a decent
+solution for usable NAS system, but to get there, there’s some drama on your
+side for re-pasting all these steps.&lt;/p&gt;
+
+&lt;p&gt;What can we do instead?&lt;/p&gt;
+
+&lt;p&gt;Automate. Automate every flow you’ve figured out for yourself and others. If
+you’ve spent 15 minutes on making set of commands work, spend 15 minutes
+more and automate. Here is a little set of rules I made for myself:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;if it’s a programming project of any kind, wrap it in &lt;code&gt;make&lt;/code&gt; or whatever
+other build tool you use (&lt;code&gt;rake&lt;/code&gt;, &lt;code&gt;cmake&lt;/code&gt; etc.)&lt;/li&gt;
+  &lt;li&gt;if it’s a UNIX or OSX project: write a &lt;code&gt;.sh&lt;/code&gt; script for it.&lt;/li&gt;
+  &lt;li&gt;if it’s Windows, write &lt;code&gt;.bat&lt;/code&gt; script.&lt;/li&gt;
+  &lt;li&gt;if there’s a chance script must be run remotely, wrap it in Ansible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I try to follow those for all &lt;a href="https://github.com/wkoszek"&gt;of my projects&lt;/a&gt;. To give you some
+examples, in the last several months I’ve automated most of my complex
+flows. Some of them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gem release flow for my OSX build tool MacB: &lt;code&gt;makefile&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Build/release process for my iOS app: &lt;a href="https://github.com/wkoszek/sensorama-ios/blob/master/build.sh"&gt;build.sh&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;My &lt;a href="https://middlemanapp.com/"&gt;middleman&lt;/a&gt; based homepage: &lt;a href="https://github.com/wkoszek/me/blob/master/makefile"&gt;makefile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Build steps for my DFA simulator: &lt;a href="https://github.com/wkoszek/flviz/blob/master/build.bat"&gt;build.bat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The very important advantage of these flows is that I see they work, since I
+can go and wire them to &lt;a href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt; or &lt;a href="https://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt; and the green badge
+in my repositories will give me and others vote of confidence.&lt;/p&gt;
+
+&lt;p&gt;Improving and automating my flows is on my TODO. Are all your workflows
+automated?&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Dropbox on iOS is disappointing</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/04/04/dropbox-on-ios-is-disappointing/"/>
+    <id>http://www.koszek.com/blog/2016/04/04/dropbox-on-ios-is-disappointing/</id>
+    <published>2016-04-04T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;Dropbox popularized the idea of cloud storage. They were the first
+widely used product which normal people like my mother could understand.
+On OSX Dropbox is integrated very well with the OS. In fact, you can see
+Dropbox as a folder and basically forget that the files which you save
+locally will be transmitted on the server in the background.&lt;/p&gt;
+
+&lt;p&gt;On a daily basis I use Google Drive, but when I got an iPad, I thought
+it’d be good to keep Dropbox as my iPad backing store, so that I don’t
+get distracted with my normal stuff. I intended to keep PDFs, books and
+other documents in Dropbox so that I could use my iPad for productive
+work.&lt;/p&gt;
+
+&lt;p&gt;First surprise: iOS version of Dropbox isn’t well suited for this. To my
+knowledge there’s no way to synchronize the whole directory for offline
+access. Basically when I wanted to make my directory called “PDFs”
+available offline, I had no way to do so. My solution to the problem was
+to go through my documents and tag them for offline reading
+individually. File by file. Guess how happy I was during doing that?&lt;/p&gt;
+
+&lt;p&gt;Second surprise is when I realized that the offline mode is only
+sensible for people who want to read documents in Dropbox itself.
+Dropbox comes with a built-in PDF which is fairly limited, and since I
+can’t make it work in pages mode (scroll to swap a page), I wanted to
+read my PDFs in Acrobat Reader. This isn’t supported, since Acrobat.
+Reader states the file is unavailable. There’s no way to send the file
+to Acrobat Reader from within Dropbox. When I share the document with
+AR, the network connectivity is prohibited.&lt;/p&gt;
+
+&lt;p&gt;So that’s a double bummer. Seems like I need to figure out a way to just
+sync files from Dropbox on the shared file system within iOS and later
+pointer Acrobat Reader to this location. Am I expecting too much?&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>I've got an iPad Pro yesterday</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/03/21/ive-got-ipad-pro-yesterday/"/>
+    <id>http://www.koszek.com/blog/2016/03/21/ive-got-ipad-pro-yesterday/</id>
+    <published>2016-03-21T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;When iPad Pro came out, I got really excited. The price was fairly high, but
+this model seemed to include all features I always wanted from a
+tablet.&lt;/p&gt;
+
+&lt;p&gt;My priorities when making a tablet purchase:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;big, high resolution screen. Should mean no more eyeballing of
+A4/American Letter size documents on small screen with scaled down fonts;
+also more trees saved on printing down things I’d only read once.&lt;/li&gt;
+  &lt;li&gt;decent pencil for drawing&lt;/li&gt;
+  &lt;li&gt;a lot of memory for podcasts, trainings and audiobooks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I got iPad Pro. It is my first tablet ever. Up until this point I felt like
+buying a tablet would be a total waste of money, since the features from the
+list are pretty essential for my usual workflow.&lt;/p&gt;
+
+&lt;h1 id="decision-process"&gt;Decision process&lt;/h1&gt;
+
+&lt;p&gt;I considered Surface Pro 4, but didn’t like the keyboard. Stylus was fine,
+but somehow I felt there was less apps which could take advantage of it.
+Frankly, when Surface Pro 4 came out, Microsoft store I went to had 0
+drawing apps to try the stylus with. I ended up drawing some doodles in
+PowerPoint.&lt;/p&gt;
+
+&lt;p&gt;I also didn’t like the idea of using Windows, since it’d make things more
+complex too me, as I’m already using some of Apple stuff.&lt;/p&gt;
+
+&lt;p&gt;And so that’s pretty much it about iPad Pro vs the rest of the world. Why
+not iPad Air 2?&lt;/p&gt;
+
+&lt;p&gt;When I looked at the tablet vs. document sizes in the recent years, I had
+the feeling that we are not getting things right, since most of the PDFs and
+books are still formatted as if they were to be printed. Your code’s API
+documentation has 700 pages – of course you’re going to just print it!&lt;/p&gt;
+
+&lt;p&gt;Right now when I take a random PDF and open it on iPad Air 2, the 2nd
+biggest tablet after Pro, the letters will most likely be small, and
+everything will require swiping the screen and panning the documents around,
+which makes me dizzy, always.&lt;/p&gt;
+
+&lt;p&gt;So yes, paper is still around, and it seems like we haven’t yet figured out
+that PDFs could in fact be formatted for a different screen sizes to deliver
+something readable for the user. So here I am – instead of buying compact
+tablet where everything I read would fit nicely, I go with hyper-resolution
+monster.&lt;/p&gt;
+
+&lt;h2 id="buying-ipad-pro"&gt;Buying iPad Pro&lt;/h2&gt;
+
+&lt;p&gt;Depending on what you do 32GB model may be right for you, and to be honest,
+the very first device I picked from the store was that big. Then I installed
+couple of apps and recorded a session of me playing drums, and I realized
+that I have 5GB of free storage. Mea culpa. I ended up upgrading 128GB
+model. Thank you for a 14-day return policy, Corporate America.&lt;/p&gt;
+
+&lt;p&gt;My hands are too big even for an iPad Pro, thus I can’t type on the screen
+keyboard long-term. While in the store, together with my iPad I tried Apple
+and Logitech cases. Both are case + keyboard combo, and they are both pretty
+solid.&lt;/p&gt;
+
+&lt;p&gt;Logitech case was the one which I picked first and decided to give it a
+shot. The deciding factor was a mechanical keys, similar to something you’d
+find in a typical keyboard.&lt;/p&gt;
+
+&lt;p&gt;Logitech case pros:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mechanical keyboard&lt;/li&gt;
+  &lt;li&gt;nicely wraps iPad from top to bottom; protects the back well.&lt;/li&gt;
+  &lt;li&gt;has backlit keys&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My biggest cons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;very heavy.&lt;/li&gt;
+  &lt;li&gt;snapping to the magnetic connector didn’t work too well. It seemed like
+the grip wasn’t strong enough, so if you lie and want to slightly bend the
+keyboard and write on it, it just wasn’t working.&lt;/li&gt;
+  &lt;li&gt;the whole case is plastic, and each time magnetic strip would get
+released, I felt like I was scratching the edge of the iPad. No visible
+damage to the edge has been&lt;/li&gt;
+  &lt;li&gt;there was no good way to fold it behind iPad. Looks like this case was
+designed for people who’d use iPad only with this case. For me keyboard is
+“nice to have”, while reading on is probably my top choice. So I didn’t
+like it.&lt;/li&gt;
+  &lt;li&gt;They placed a “lock” key just above “Delete”, which I keep typing all the&lt;/li&gt;
+  &lt;li&gt;did I mention it’s heavy?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this is how I returned the Logitech case and I went with the Apple one.&lt;/p&gt;
+
+&lt;p&gt;Thank you for 14-day return policy, Corporate America.&lt;/p&gt;
+
+&lt;p&gt;Smart Keyboard pros:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lighter&lt;/li&gt;
+  &lt;li&gt;good key placement&lt;/li&gt;
+  &lt;li&gt;strong magnetic snapping&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Smart Keyboard cons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;no backlit in the keyboard&lt;/li&gt;
+  &lt;li&gt;doesn’t protect back of the iPad when closed&lt;/li&gt;
+  &lt;li&gt;not so good feedback on key press&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I suggest you go to the store and play with both keyboards in order to
+prevent yourself from surprises. Also note that Pro + Logitech case is
+probably as heavy as Macbook Air.&lt;/p&gt;
+
+&lt;h1 id="so-how-is-the-ipad-pro"&gt;So how is the iPad Pro?&lt;/h1&gt;
+
+&lt;p&gt;As always Apple delivered great hardware. Specswise, this a great machine.
+The Apple Keyboard is difficult to use at first, but after couple of hours
+of writing on it, I’m getting used to it. In fact, this article was written
+on an iPad.&lt;/p&gt;
+
+&lt;p&gt;My biggest problem is openness, of course. I’d really like being able to use
+an external medium to transfer files, but I guess that’s not happening anytime
+soon in the workshop of uncle Apple.&lt;/p&gt;
+
+&lt;p&gt;I have an iPad for 2 weeks, and I can’t come up with reasons to criticize
+the hardware. It’s fast and I haven’t had any issues. Upon upgrading to iOS
+9.3 beta I did have hiccups, but that’s expected.&lt;/p&gt;
+
+&lt;h1 id="hows-the-pencil"&gt;How’s the pencil?&lt;/h1&gt;
+
+&lt;p&gt;I tried numerous styluses and Apple Pencil is basically the best. It has the
+sharp tip - like a normal pen, and it reacts very well with the screen. I’ve
+tried it with “Sketchbook”, “Notes” and my favorite app – Concepts. Nice
+thing is that it saves the vector form of the drawing, so for some simple
+design work I do, it’s perfect, since I can cut from analog-to-digital
+vectorization. If you don’t get the stylus, you miss a lot.&lt;/p&gt;
+
+&lt;h1 id="ios-and-apps-for-ipad-pro"&gt;iOS and Apps for iPad Pro&lt;/h1&gt;
+
+&lt;p&gt;Most of the time I don’t complain about software. There are cases where I
+open an app (including Apple Apps) and realize that with this huge screen
+the navigation takes like 1% of available space, which is pretty
+frustrating. Other than that, some notes below.&lt;/p&gt;
+
+&lt;h2 id="ios-93"&gt;iOS 9.3&lt;/h2&gt;
+
+&lt;p&gt;Finally there’s some progress on screen dimmers: Night Shift mode. Basically
+your iPad’s screen can get more sane colors for working at night. If you’ve
+ever frowned at night in front of the LCD because it was blasting bright light
+straight into your brain, fear no more. Night Shift may help.&lt;/p&gt;
+
+&lt;p&gt;I’m still waiting for an app or update to the iOS so that I can invert the
+colors and get full black background/gray letters, which is the best for
+astigmatism.&lt;/p&gt;
+
+&lt;h2 id="duet-display"&gt;Duet Display&lt;/h2&gt;
+
+&lt;p&gt;First thing I wanted to try is to use Pro’s screen along with Macbook Air. I
+installed Duet Display and it started to work, but unfortunately I have
+failed to get an optimal resolution configured. It has always been blurry and
+didn’t take advantage of the full power of the Retina screen. Slightly
+disappointed. Reported the problem to the authors. Time will show.&lt;/p&gt;
+
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;This app is kicking. Not only one can write, but you can also put drawings
+along with the text, and everything seems to work nicely. I haven’t been
+using Notes much yet in my workflow, but I may consider doing so.&lt;/p&gt;
+
+&lt;p&gt;Notes work great in stylus, and if Apple keeps making progress on it, we’ll
+no longer have to install custom apps for simple drawing. Very nice.&lt;/p&gt;
+
+&lt;h2 id="dash"&gt;Dash&lt;/h2&gt;
+
+&lt;p&gt;Dash is the first app which I actually paid for. If you’re a software
+developer, it’s totally worth $10. This gem provides you offline packages of
+documentation to the most popular software projects available around. No
+more stealing of your LTE’s plan data, no more frustration because of the
+crappy Wi-fi. You can have your favorite documentation for the vacation
+reading anywhere you go.&lt;/p&gt;
+
+&lt;h2 id="wunderlist"&gt;Wunderlist&lt;/h2&gt;
+
+&lt;p&gt;Nicely looking on iPad; feels like a workspace for your productivity. I wish
+the note taking in Wunderlist would be more fully-featured (at least full
+screen…), then I could do all my editing in here. But since it doesn’t..&lt;/p&gt;
+
+&lt;h2 id="ulysses"&gt;Ulysses&lt;/h2&gt;
+
+&lt;p&gt;It’s probably the best writing app on iOS. With an ability of setting
+correct background/fonts and nicely structured layout plus functional
+export, it does the job. Pretty depressing is that for $20 you get pretty
+much something you’d have gotten for free on a PC. My biggest buyers remorse
+is here, I guess. Additionally Pages on iOS are pretty pathetic, since I
+can’t find a way to set inverted color scheme there.&lt;/p&gt;
+
+&lt;h2 id="hipchat"&gt;HipChat&lt;/h2&gt;
+
+&lt;p&gt;Didn’t yet catch-up with iPad I think. Looks like it’s displaying the iPhone
+storyboard.&lt;/p&gt;
+
+&lt;h2 id="complete-anatomy"&gt;Complete Anatomy&lt;/h2&gt;
+
+&lt;p&gt;I don’t know how and why, but once I experienced the feeling of control with
+touch-based interface, I installed the Complete Anatomy right away. Man,
+this is fun. It’s a pity the free version is limited, and more
+fully-featured requires monthly plan. Will explore Essential Anatomy as
+well, since it seems like it’s a fixed-price, waaay cheaper version.&lt;/p&gt;
+
+&lt;h1 id="ipad-pro-alternatives"&gt;iPad Pro alternatives&lt;/h1&gt;
+
+&lt;p&gt;As of writing this article (2016/MAR) I could view Surface as a strong
+competitor. Honestly, I pondered Surface since it makes so much more sense:
+fully featured PC, expandable and can read SD card. However because I write iOS
+software and my phone and computer are Apples, iPad Pro was a no-brainer. If
+you don’t have strong ties to Apple, I’d consider Surface.&lt;/p&gt;
+
+&lt;h1 id="summary"&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;Is iPad Pro for you? I suggest you go through your wishlist and figure out
+whether Pro meets your needs. Feel free to send me an e-mail about your
+findings and experiences with your iPad Pro.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>On writing well</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2016/01/15/book-on-writing-well/"/>
+    <id>http://www.koszek.com/blog/2016/01/15/book-on-writing-well/</id>
+    <published>2016-01-15T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">
+</content>
+  </entry>
+  <entry>
+    <title>How to store SSH passphrases in LastPass</title>
+    <link rel="alternate" href="http://www.koszek.com/blog/2015/12/07/using-lastpass-with-ssh/"/>
+    <id>http://www.koszek.com/blog/2015/12/07/using-lastpass-with-ssh/</id>
+    <published>2015-12-07T00:00:00+00:00</published>
+    <updated>2016-11-18T18:33:12+00:00</updated>
+    <author>
+      <name>Wojciech Adam Koszek</name>
+    </author>
+    <content type="html">&lt;p&gt;Passwords are a terrible authentication mechanism. Even though this
+mechanism exists in computer systems for years, frankly there aren’t too
+many solutions to address the password problem. If you’ve dealt with
+more than three different APIs I bet you must have committed
+confidential data to GitHub at least once. SSH with its keys isn’t any
+better, and is used in more critical places.&lt;/p&gt;
+
+&lt;p&gt;Below I attempt to address the SSH passphrase problem. My setup is based
+on LastPass. LastPass stores a binary bundle with all your passwords in
+the cloud. Bundle is fetched on your machine, and you decrypt it with a
+master password. During decrypting phone-based 2-factor authentication
+is used for increased security. If your master password is weak, you’re
+baked. Upon decryption you have an access to all your passwords,
+including SSH passphrases. The script automates the management of
+ssh-agent and key adding.&lt;/p&gt;
+
+&lt;h2 id="quickstart"&gt;Quickstart&lt;/h2&gt;
+
+&lt;p&gt;Visit the:
+&lt;a href="https://github.com/wkoszek/lastpass-ssh"&gt;https://github.com/wkoszek/lastpass-ssh&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="how-to-use-it"&gt;How to use it?&lt;/h2&gt;
+
+&lt;p&gt;Before we start, full disclosure: LastPass has had 2
+&lt;a href="https://blog.lastpass.com/2011/05/lastpass-security-notification.html/"&gt;security&lt;/a&gt;
+&lt;a href="https://blog.lastpass.com/2015/06/lastpass-security-notice.html/"&gt;incidents&lt;/a&gt;
+that I know about, plus &lt;a href="https://investor.logmeininc.com/about-us/investors/news/press-release-details/2015/LogMeIn-to-Acquire-Password-Management-Leader-LastPass/default.aspx"&gt;they’ve been
+acquired&lt;/a&gt;
+recently, so it’s up to you to decide if you’re willing to invest your
+time in this solution. I just haven’t found anything better than that.
+Reports about how LastPass handled the incidents made me feel they know
+what they’re doing. Described in this article is a &lt;a href="https://github.com/lastpass/lastpass-cli"&gt;open-source command
+line client&lt;/a&gt; which they
+published and support.&lt;/p&gt;
+
+&lt;h2 id="how-to-install"&gt;How to install?&lt;/h2&gt;
+
+&lt;p&gt;Install &lt;code&gt;lastpass-ssh&lt;/code&gt; and &lt;code&gt;lpass&lt;/code&gt; client:&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;sudo brew install lastpass-cli
+sudo gem install lastpass-ssh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;You make yourself an “SSH” subfolder in the LastPass “Secure Notes” and
+add secure notes there. Each note has a name and a passphrase. The name
+corresponds to the filename of the SSH key file, and the passphrase is
+its key’s passphrase.&lt;/p&gt;
+
+&lt;p&gt;Example: if you have a key like myrepos in &lt;code&gt;~/.ssh/&lt;/code&gt;, then the name
+of the Secure Note would be &lt;code&gt;myrepos&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id="how-to-run"&gt;How to run&lt;/h2&gt;
+
+&lt;p&gt;Type:&lt;/p&gt;
+
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;lastpass-ssh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It will poll the “Secure Notes/SSH” folder and for each note of name
+“A”, it’ll try to perform &lt;code&gt;ssh-add ~/.ssh/A&lt;/code&gt; with an appropriate
+passphrase.&lt;/p&gt;
+
+&lt;p&gt;You can change the location of keys by passing
+&lt;code&gt;--keys-path=&amp;lt;where-you-have-keys&amp;gt;&lt;/code&gt;. By default all keys are
+added. You can change this behavior by passing &lt;code&gt;--key=KEYNAME&lt;/code&gt; option,
+where &lt;code&gt;KEYNAME&lt;/code&gt; is the name of the key file you want to add.&lt;/p&gt;
+
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;Internally the lastpass-ssh script is based on the lpass command line
+tool provided by LastPass guy themselves.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
